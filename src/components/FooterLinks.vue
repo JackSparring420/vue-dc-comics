@@ -1,7 +1,7 @@
 <template>
     <footer>
         <div id="contain">
-        <nav>
+        <nav id="links">
             <div>
                 <ul>
                     <h3>DC COOMICS</h3>
@@ -176,10 +176,14 @@ export default {
                     justify-content: space-between;
                 }
 
+                #links{
+                    width: 50%;
+                }
+
                 #logo {
                     margin-right: 100px;
-                    width: 70%;
-                    height: 400px;
+                    width: 50%;
+                    height: 350px;
                     
                     img {
                     object-fit: none;

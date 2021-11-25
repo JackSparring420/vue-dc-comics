@@ -1,7 +1,7 @@
 <template>
     <main>
         <div class="contain">
-            <h2> --&gt; Content goes here &lt;-- </h2>
+            <strong>CURRENT SERIES</strong> 
         </div>
     </main>
 </template>
@@ -25,17 +25,18 @@ export default {
         padding: 0;
         margin: 12px 0 0 0;
         box-sizing: border-box;
-        background-color: black;
+        background-image: url("../assets/img/jumbotron.jpg");
         display: flex;
         align-items: center;
-        height: 200px;
+        height: 435px;
+        position: relative;
             .contain{
-                width: 70%;
-                margin: auto;
-                
-                h2 {
-                    color: white;
-                }
+                position: absolute;
+                background-color: #0282f9;
+                padding: 5px 10px;
+                color: white;
+                top: 420px;
+                left: 15%;
             }
     }
 </style>

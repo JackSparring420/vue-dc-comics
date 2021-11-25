@@ -2,7 +2,8 @@
   <div id="app">
     <Header/>
     <main>
-      <Main/>
+      <Jumbotron/>
+      <Comics/>
     </main>
     <footer>
       <NavByIcons/>
@@ -14,19 +15,21 @@
 
 <script>
 import Header from './components/Header.vue'
-import Main from './components/Main.vue'
+import Jumbotron from './components/Jumbotron.vue'
 import NavByIcons from './components/NavByIcons.vue'
 import FooterLinks from './components/FooterLinks.vue'
 import FooterFollow from './components/FooterFollow.vue'
+import Comics from './components/Comics.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
-    Main,
+    Jumbotron,
     NavByIcons,
     FooterLinks,
-    FooterFollow
+    FooterFollow,
+    Comics
   }
 }
 </script>
